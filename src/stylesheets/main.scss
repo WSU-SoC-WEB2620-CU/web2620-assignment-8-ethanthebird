@@ -1,2 +1,150 @@
 // Your styles go here
 @import "@fortawesome/fontawesome-free/css/all.css";
+/* styles.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar p {
+    margin: 0;
+    font-weight: normal;
+  }
+  
+  .navbar nav {
+    margin-right: auto;
+  }
+  
+  .navbar a {
+    padding: 5px 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero section styles */
+  .hero-section {
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .hero-section h1 {
+    font-weight: bold;
+  }
+  
+  .hero-section button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hero-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Features section styles */
+  .features h2 {
+    margin-bottom: 20px;
+  }
+  
+  .features .col {
+    border: 2px solid black;
+    padding: 20px;
+  }
+  
+  /* Plans section styles */
+  .plans h2 {
+    margin-bottom: 20px;
+  }
+  
+  .plans table {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .plans th,
+  .plans td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Pricing section styles */
+  .pricing-header {
+    margin-bottom: 30px;
+  }
+  
+  .pricing .card {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .pricing .card-header {
+    background-color: #f8f9fa;
+  }
+  
+  .pricing .card-body {
+    padding: 20px;
+  }
+  
+  .pricing .card-title {
+    font-size: 24px;
+  }
+  
+  .pricing ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .pricing button {
+    margin-top: 20px;
+  }
+  
+  /* Gallery section styles */
+  .gallery h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #23252A;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer-section h5 {
+    margin-bottom: 15px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  
